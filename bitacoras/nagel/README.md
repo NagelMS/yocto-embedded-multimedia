@@ -22,3 +22,9 @@ Problemas Encontrados: No lograba detectar la mayoría de cajas, al revisar la i
 Problemas: Si bien el detector es robusto, aveces detecta poligonos "cuadrados" como cajas.
 
 Referencias: https://github.com/KEG012/Project_openCV_Box_Detector
+
+## 19 de setiembre de 2025
+
+- Se organizó de mejor forma los códigos de python generando un programa principa (main.py), que utiliza los códigos de python del nuevo directorio de fuentes (src) para la detección de cajas (detector.py), el procesamiento del video (video_processor.py) y un código para implementar configuraciones generales (config.py).
+
+Problemas: **ERROR** el programa de python no está funcionando por medio del pipeline de gstreamer, con opencv puro sí lo logra.
