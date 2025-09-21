@@ -25,6 +25,12 @@ Referencias: https://github.com/KEG012/Project_openCV_Box_Detector
 
 ## 19 de setiembre de 2025
 
-- Se organizó de mejor forma los códigos de python generando un programa principa (main.py), que utiliza los códigos de python del nuevo directorio de fuentes (src) para la detección de cajas (detector.py), el procesamiento del video (video_processor.py) y un código para implementar configuraciones generales (config.py).
+- Se organizó de mejor forma los códigos de python generando un programa principal (main.py), que utiliza los códigos de python del nuevo directorio de fuentes (src) para la detección de cajas (detector.py), el procesamiento del video (video_processor.py) y un código para implementar configuraciones generales (config.py).
 
 Problemas: **ERROR** el programa de python no está funcionando por medio del pipeline de gstreamer, con opencv puro sí lo logra.
+
+## 20 de setiembre de 2025
+
+- Se descartaron los programas en src de config.py y videodetector.py ya que la funcionalidad de Gstreamer con python no está habilitada por defecto, se optó por la funcionalidad directa de Gstreamer con python utilizando appsink para obtener el frame y realizar las operaciones necesarias con opencv.
+
+Deberes: Modificar los archivos de la receta para que acepte el nuevo programa completo.
