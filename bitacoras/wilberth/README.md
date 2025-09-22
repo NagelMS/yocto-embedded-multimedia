@@ -1,4 +1,4 @@
-# Bitácora — Wilberth Gutiérrez Montero (Yocto, rama *walnascar*)
+# Bitácora — Wilberth Gutiérrez Montero
 
 ## 02 de septiembre de 2025
 **Lo hecho:** Arranqué el proyecto revisando qué es Yocto y cómo encajan sus piezas. Preparé la computadora de trabajo, descargué el árbol de código y dejé lista la carpeta de compilación. También repasé la documentación básica de OpenCV y GStreamer para entender qué necesitaremos más adelante.  
@@ -57,4 +57,5 @@
 ## 20 de septiembre de 2025
 **Lo hecho:** Validé el uso de GStreamer desde Python con PyGObject en la rama **walnascar**, confirmando que la importación y la inicialización se hacen sin errores.  
 **Problemas:** En un intento de prueba la importación falló porque faltaba un paquete de introspección; lo agregué a la imagen y volvió a funcionar.
+
 
