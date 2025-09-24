@@ -34,3 +34,19 @@ Problemas: **ERROR** el programa de python no está funcionando por medio del pi
 - Se descartaron los programas en src de config.py y videodetector.py ya que la funcionalidad de Gstreamer con python no está habilitada por defecto, se optó por la funcionalidad directa de Gstreamer con python utilizando appsink para obtener el frame y realizar las operaciones necesarias con opencv.
 
 Deberes: Modificar los archivos de la receta para que acepte el nuevo programa completo.
+
+## 21 de setiembre de 2025 (mañana)
+
+- Se realizó la modificación de la receta para poder ejecutar el programa completo. Se realizaron pruebas en QEMU las cuales generaron resultados esperados logrando observar un pipeline de gstreamer de testeo de video por medio de ssh.
+
+Problemas: Se me ha hecho imposible probar la imagen en VirtualBox, se me han generado errores en la configuración del propio programa, haciendo los pasos que recomienda el propio VirtualBox (ejecutar /sbin/vboxconfig) sigue provocando el mismo error.
+
+## 21 de setiembre de 2025 (tarde)
+
+- Se realizó una reunion con los integrantes, uno de los integrantes logró correr la aplicación en una maquina virtual, y logró visualizar el video procesado en vivo por medio de compartir recursos con ssh.
+
+Deberes: Se debe completar el tutorial del programa.
+
+## 23 de setiembre de 2025
+
+- Se realizaron las partes de diagramas, generación y sintesis de la imagen, descripción de los toolkits. Se realizo una explicación de lo más importante sobre la receta generada, así como layers utilizadas, y configuraciones locales para el buen funcionamiento del programa.
